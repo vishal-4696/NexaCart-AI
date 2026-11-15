@@ -76,69 +76,42 @@
  
 ## 📸 Screenshots
  
-### 🏠 Storefront
+<p align="center"><sub>Click any image to view it full size</sub></p>
+<h3 align="center">🏠 Storefront</h3>
  
-<div align="center">
-<b>1 · Home</b>
+<table>
+<tr>
+<td width="33%" align="center" valign="top"><a href="screenshots/1.Home%20Page.png"><img src="screenshots/1.Home%20Page.png" alt="Home" width="100%"/></a><br/><sub><b>1 · Home</b></sub></td>
+<td width="33%" align="center" valign="top"><a href="screenshots/2.Product%20Page.png"><img src="screenshots/2.Product%20Page.png" alt="Explore Products" width="100%"/></a><br/><sub><b>2 · Explore Products</b></sub></td>
+<td width="33%" align="center" valign="top"><a href="screenshots/3.Product.png"><img src="screenshots/3.Product.png" alt="Product Details" width="100%"/></a><br/><sub><b>3 · Product Details</b></sub></td>
+</tr>
+</table>
+<h3 align="center">🤖 AI and Social Proof</h3>
  
-<img src="screenshots/1.Home%20Page.png" alt="Home" width="100%" />
-<br/><br/>
+<table>
+<tr>
+<td width="50%" align="center" valign="top"><a href="screenshots/4.AI%20Recommendations.png"><img src="screenshots/4.AI%20Recommendations.png" alt="AI Recommendations" width="100%"/></a><br/><sub><b>4 · AI Recommendations</b></sub></td>
+<td width="50%" align="center" valign="top"><a href="screenshots/5.Customer%20Review.png"><img src="screenshots/5.Customer%20Review.png" alt="Customer Reviews" width="100%"/></a><br/><sub><b>5 · Customer Reviews</b></sub></td>
+</tr>
+</table>
+<h3 align="center">💳 Cart to Confirmation</h3>
  
-<b>2 · Explore Products</b>
+<table>
+<tr>
+<td width="33%" align="center" valign="top"><a href="screenshots/6.Cart%20Page.png"><img src="screenshots/6.Cart%20Page.png" alt="Cart" width="100%"/></a><br/><sub><b>6 · Cart</b></sub></td>
+<td width="33%" align="center" valign="top"><a href="screenshots/7.Checkout%20Page.png"><img src="screenshots/7.Checkout%20Page.png" alt="Checkout" width="100%"/></a><br/><sub><b>7 · Checkout</b></sub></td>
+<td width="33%" align="center" valign="top"><a href="screenshots/8.Order%20Confirmed%20Page.png"><img src="screenshots/8.Order%20Confirmed%20Page.png" alt="Order Confirmed" width="100%"/></a><br/><sub><b>8 · Order Confirmed</b></sub></td>
+</tr>
+</table>
+<h3 align="center">🧑‍💼 Admin Panel</h3>
  
-<img src="screenshots/2.Product%20Page.png" alt="Explore Products" width="100%" />
-<br/><br/>
- 
-<b>3 · Product Details</b>
- 
-<img src="screenshots/3.Product.png" alt="Product Details" width="100%" />
-</div>
-### 🤖 AI and Social Proof
- 
-<div align="center">
-<b>4 · AI Recommended for You</b>
- 
-<img src="screenshots/4.AI%20Recommendations.png" alt="AI Recommendations" width="100%" />
-<br/><br/>
- 
-<b>5 · Customer Reviews</b>
- 
-<img src="screenshots/5.Customer%20Review.png" alt="Customer Reviews" width="100%" />
-</div>
-### 💳 Cart to Confirmation
- 
-<div align="center">
-<b>6 · Shopping Cart</b>
- 
-<img src="screenshots/6.Cart%20Page.png" alt="Cart" width="100%" />
-<br/><br/>
- 
-<b>7 · Checkout</b>
- 
-<img src="screenshots/7.Checkout%20Page.png" alt="Checkout" width="70%" />
-<br/><br/>
- 
-<b>8 · Order Confirmed</b>
- 
-<img src="screenshots/8.Order%20Confirmed%20Page.png" alt="Order Confirmed" width="100%" />
-</div>
-### 🧑‍💼 Admin Panel
- 
-<div align="center">
-<b>9 · Admin Dashboard</b>
- 
-<img src="screenshots/9.Admin%20DashBoard.png" alt="Admin Dashboard" width="100%" />
-<br/><br/>
- 
-<b>10 · Product Management</b>
- 
-<img src="screenshots/10.Product%20Management.png" alt="Product Management" width="100%" />
-<br/><br/>
- 
-<b>11 · Order Management</b>
- 
-<img src="screenshots/11.Manage%20Orders.png" alt="Order Management" width="100%" />
-</div>
+<table>
+<tr>
+<td width="33%" align="center" valign="top"><a href="screenshots/9.Admin%20DashBoard.png"><img src="screenshots/9.Admin%20DashBoard.png" alt="Admin Dashboard" width="100%"/></a><br/><sub><b>9 · Admin Dashboard</b></sub></td>
+<td width="33%" align="center" valign="top"><a href="screenshots/10.Product%20Management.png"><img src="screenshots/10.Product%20Management.png" alt="Product Management" width="100%"/></a><br/><sub><b>10 · Product Management</b></sub></td>
+<td width="33%" align="center" valign="top"><a href="screenshots/11.Manage%20Orders.png"><img src="screenshots/11.Manage%20Orders.png" alt="Order Management" width="100%"/></a><br/><sub><b>11 · Order Management</b></sub></td>
+</tr>
+</table>
 ---
  
 ## 🏗️ Architecture
