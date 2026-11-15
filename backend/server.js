@@ -14,15 +14,21 @@ const aiRoutes = require("./routes/aiRoutes");
 
 const app = express();
 
-// Middleware
+const allowedOrigins = (process.env.CLIENT_URL || "http://localhost:5173")
+  .split(",")
+  .map((url) => url.trim());
+
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
   }),
 );
-
-// Normal JSON middleware
-app.use(express.json());
 
 // Basic health check
 app.get("/", (req, res) => {
