@@ -14,9 +14,14 @@ const aiRoutes = require("./routes/aiRoutes");
 
 const app = express();
 
-const allowedOrigins = (process.env.CLIENT_URL || "http://localhost:5173")
-  .split(",")
-  .map((url) => url.trim());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://nexa-cart-ai.vercel.app",
+  ...(process.env.CLIENT_URL || "")
+    .split(",")
+    .map((url) => url.trim())
+    .filter(Boolean),
+];
 
 app.use(
   cors({
@@ -27,10 +32,12 @@ app.use(
         callback(new Error("Not allowed by CORS"));
       }
     },
+    credentials: true,
   }),
 );
 
-// Basic health check
+app.use(express.json());
+
 app.get("/", (req, res) => {
   res.json({
     success: true,
@@ -38,7 +45,6 @@ app.get("/", (req, res) => {
   });
 });
 
-// API routes
 app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/products", productRoutes);
@@ -47,7 +53,6 @@ app.use("/api/orders", orderRoutes);
 app.use("/api/reviews", reviewRoutes);
 app.use("/api/ai", aiRoutes);
 
-// Handle unknown routes
 app.use((req, res) => {
   res.status(404).json({
     success: false,
@@ -55,7 +60,6 @@ app.use((req, res) => {
   });
 });
 
-// Start server
 const startServer = async () => {
   try {
     await connectDB();
