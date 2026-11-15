@@ -1,20 +1,18 @@
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0f766e,100:2dd4bf&height=220&section=header&text=NexaCart%20AI&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Shop%20intelligently.%20AI-powered%20MERN%20e-commerce.&descAlignY=60&descSize=20" alt="NexaCart AI" width="100%" />
 <br/>
-![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=3395FF)
- 
+<img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+<img src="https://img.shields.io/badge/Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=3395FF" alt="Razorpay"/>
 <h3>A full-stack e-commerce platform with a hybrid recommendation engine, secure payments and a complete admin panel.</h3>
  
-[**Features**](#-features) · [**Screenshots**](#-screenshots) · [**Architecture**](#-architecture) · [**AI Engine**](#-the-ai-recommendation-engine) · [**Getting Started**](#-getting-started) · [**API**](#-api-reference)
- 
+<p><a href="#-features"><b>Features</b></a> · <a href="#-screenshots"><b>Screenshots</b></a> · <a href="#-architecture"><b>Architecture</b></a> · <a href="#-the-ai-recommendation-engine"><b>AI Engine</b></a> · <a href="#-getting-started"><b>Getting Started</b></a> · <a href="#-api-reference"><b>API</b></a></p>
 </div>
 <br/>
 ## 📖 Table of Contents
@@ -81,65 +79,65 @@
 ### 🏠 Storefront
  
 <div align="center">
-**1 · Home**
+<b>1 · Home</b>
  
-<img src="screenshots/1_Home_Page.png" alt="Home" width="100%" />
+<img src="screenshots/1.Home%20Page.png" alt="Home" width="100%" />
 <br/><br/>
  
-**2 · Explore Products**
+<b>2 · Explore Products</b>
  
-<img src="screenshots/2_Product_Page.png" alt="Explore Products" width="100%" />
+<img src="screenshots/2.Product%20Page.png" alt="Explore Products" width="100%" />
 <br/><br/>
  
-**3 · Product Details**
+<b>3 · Product Details</b>
  
-<img src="screenshots/3_Product.png" alt="Product Details" width="100%" />
+<img src="screenshots/3.Product.png" alt="Product Details" width="100%" />
 </div>
 ### 🤖 AI and Social Proof
  
 <div align="center">
-**4 · AI Recommended for You**
+<b>4 · AI Recommended for You</b>
  
-<img src="screenshots/4_AI_Recommendations.png" alt="AI Recommendations" width="100%" />
+<img src="screenshots/4.AI%20Recommendations.png" alt="AI Recommendations" width="100%" />
 <br/><br/>
  
-**5 · Customer Reviews**
+<b>5 · Customer Reviews</b>
  
-<img src="screenshots/5_Customer_Review.png" alt="Customer Reviews" width="100%" />
+<img src="screenshots/5.Customer%20Review.png" alt="Customer Reviews" width="100%" />
 </div>
 ### 💳 Cart to Confirmation
  
 <div align="center">
-**6 · Shopping Cart**
+<b>6 · Shopping Cart</b>
  
-<img src="screenshots/6_Cart_Page.png" alt="Cart" width="100%" />
+<img src="screenshots/6.Cart%20Page.png" alt="Cart" width="100%" />
 <br/><br/>
  
-**7 · Checkout**
+<b>7 · Checkout</b>
  
-<img src="screenshots/7_Checkout_Page.png" alt="Checkout" width="70%" />
+<img src="screenshots/7.Checkout%20Page.png" alt="Checkout" width="70%" />
 <br/><br/>
  
-**8 · Order Confirmed**
+<b>8 · Order Confirmed</b>
  
-<img src="screenshots/8_Order_Confirmed_Page.png" alt="Order Confirmed" width="100%" />
+<img src="screenshots/8.Order%20Confirmed%20Page.png" alt="Order Confirmed" width="100%" />
 </div>
 ### 🧑‍💼 Admin Panel
  
 <div align="center">
-**9 · Admin Dashboard**
+<b>9 · Admin Dashboard</b>
  
-<img src="screenshots/9_Admin_DashBoard.png" alt="Admin Dashboard" width="100%" />
+<img src="screenshots/9.Admin%20DashBoard.png" alt="Admin Dashboard" width="100%" />
 <br/><br/>
  
-**10 · Product Management**
+<b>10 · Product Management</b>
  
-<img src="screenshots/10_Product_Management.png" alt="Product Management" width="100%" />
+<img src="screenshots/10.Product%20Management.png" alt="Product Management" width="100%" />
 <br/><br/>
  
-**11 · Order Management**
+<b>11 · Order Management</b>
  
-<img src="screenshots/11_Manage_Orders.png" alt="Order Management" width="100%" />
+<img src="screenshots/11.Manage%20Orders.png" alt="Order Management" width="100%" />
 </div>
 ---
  
@@ -241,10 +239,9 @@ NexaCart-AI/
  
 ### Prerequisites
  
-![Node](https://img.shields.io/badge/Node.js-18+-339933?logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Local_or_Atlas-47A248?logo=mongodb&logoColor=white)
- 
+<img src="https://img.shields.io/badge/Node.js-18+-339933?logo=nodedotjs&logoColor=white" alt="Node"/>
+<img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/MongoDB-Local_or_Atlas-47A248?logo=mongodb&logoColor=white" alt="MongoDB"/>
 ### 1 · Clone
  
 ```bash
@@ -415,11 +412,11 @@ Base URL: `http://localhost:5000/api`
 <div align="center">
 **Vishal**
  
-[![GitHub](https://img.shields.io/badge/GitHub-vishal--4696-181717?style=for-the-badge&logo=github)](https://github.com/vishal-4696)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-vishal--d6476-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/vishal-d6476)
+[<img src="https://img.shields.io/badge/GitHub-vishal--4696-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/vishal-4696)
+[<img src="https://img.shields.io/badge/LinkedIn-vishal--d6476-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>](https://linkedin.com/in/vishal-d6476)
  
 <br/>
-⭐ **If you like this project, give it a star.** ⭐
+<b>⭐ If you like this project, give it a star. ⭐</b>
  
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0f766e,100:2dd4bf&height=120&section=footer" width="100%" alt="" />
 </div>
